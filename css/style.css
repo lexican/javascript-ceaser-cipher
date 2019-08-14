@@ -1,0 +1,65 @@
+body, html {
+	font-family: 'Open Sans', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: black;
+	font-weight: 400;
+	width: 100% !important;
+    height: 100% !important;
+    background-color: #fff;
+
+}
+.navbar{
+    background: black;
+    transition:all 1s ease;
+}
+.navbar-background{
+    padding: 5px 20px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    transition: all 1s ease;
+    color: rgb(191, 142, 0)
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 18px;
+    margin: 0px 30px;
+    }
+.nav-link:hover{
+    color: #d3325f;
+}
+
+.toggler-btn{
+    border: 2px solid #d3325f;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 10px;
+    background: #d3325f;
+}
+
+.heading-info{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.info-body{
+    padding-top: 20px;
+}
